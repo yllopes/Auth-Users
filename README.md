@@ -1,5 +1,5 @@
 ﻿# Auth-Users
- usuername = usuario
+ username = usuario
  password = senha
  URL http://localhost:8080/public/index.php
 
