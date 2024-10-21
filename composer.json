@@ -1,0 +1,18 @@
+{
+    "name": "ygor_lopes/proj_js",
+    "description": "Projeto com crude simples de usuario",
+    "autoload": {
+        "psr-4": {
+            "Proj\\JS\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ygor Lopes",
+            "email": "ygorlopesm@hotmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
