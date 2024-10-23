@@ -1,6 +1,4 @@
 <?php
-require_once '../App/Controllers/UserController.php';
-require_once '../App/Middleware/AuthMiddleware.php';
 
 use Proj\JS\Controllers\UserController;
 use Proj\JS\Middleware\AuthMiddleware;

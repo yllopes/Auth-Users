@@ -1,8 +1,7 @@
 <?php
 namespace Proj\JS\Controllers;
 
-require_once __DIR__ . '/../models/UserModel.php';
-require_once __DIR__ . '/../middleware/AuthMiddleware.php';
+require_once __DIR__ . '/../Models/UserModel.php';
 
 use Proj\JS\Models\UserModel;
 use Proj\JS\Middleware\AuthMiddleware;

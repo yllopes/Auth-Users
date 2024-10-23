@@ -15,7 +15,7 @@ $authResult = AuthMiddleware::authenticate();
 if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {
    
     echo json_encode([
-        'message' => 'Tá funcionando rapaz',
+        'message' => 'Funcionando',
         'user' => $authResult->username
     ]);
     exit; 
