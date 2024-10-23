@@ -8,5 +8,5 @@
  Implementação de um CRUDE de Login básico com um usuario ja criado no banco de dados,
  utilizando um token e o validando, mantendo a requisição no cabeçalho.
 
- OBS:Necessario fazer a instalação da biblioteca firebase/php-jwt pois a que usei para realizar
- o projeto optei por deixar no .gitignore sendo assim o git a ignora causando problemas no codigo
+ OBS:Necessario fazer a instalação da biblioteca firebase/php-jwt, pois a que usei para realizar
+ o projeto optei por deixar no .gitignore, o que irá causar problemas na codificação
