@@ -5,7 +5,7 @@ require_once __DIR__ . '/../Config/Config.php';
 use Firebase\JWT\JWT;
 use Firebase\JWT\ExpiredException;
 use Firebase\JWT\Key;
-
+use PDO;
 class UserModel {
     private $db;
 
@@ -57,5 +57,14 @@ class UserModel {
         } catch (\Exception $e) {
             return false; 
         }
+    }
+
+    public function findByUsername($username) {
+        $query = "SELECT * FROM users WHERE username = :username LIMIT 1";
+        $stmt = $this->db->prepare($query);
+        $stmt->bindParam(':username', $username);
+        $stmt->execute();
+
+        return $stmt->fetch(PDO::FETCH_OBJ);
     }
 }
