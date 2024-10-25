@@ -3,7 +3,7 @@
  
  Senha = senha
  
- URL recomendada = http://localhost:8080/public/index.html
+ URL recomendada = http://localhost:8080/index.html
 
  Implementação de um CRUDE de Login básico com um usuario ja criado no banco de dados,
  utilizando um token e o validando, mantendo a requisição no cabeçalho.
