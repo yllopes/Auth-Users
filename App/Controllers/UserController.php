@@ -43,14 +43,14 @@ class UserController {
         AuthMiddleware::authenticate();
         header('Content-Type: application/json');
     
-        echo json_encode(['message' => 'Bem-vindo professor!']);
+        echo json_encode(['message' => 'Bem-vindo Usuário!']);
         exit; 
     }
     
 
     public function logout() {
         setcookie('token', '', time() - 3600, "/");
-        header("Location: /public/index.php");
+        header("Location: /index.html");
         exit;
     }
 }

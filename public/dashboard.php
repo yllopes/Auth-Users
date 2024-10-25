@@ -78,7 +78,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'
             
             localStorage.removeItem('token');
             alert('Logout realizado com sucesso!');
-            window.location.href = '/public/index.php'; 
+            window.location.href = '/index.html'; 
         }
     </script>
 </head>
