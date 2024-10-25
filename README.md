@@ -10,3 +10,5 @@
 
  OBS:Necessario fazer a instalação da biblioteca firebase/php-jwt, pois a que usei para realizar
  o projeto optei por deixar no .gitignore, o que irá causar problemas na codificação
+
+ OBS:Git hub Pages está com um problema que vou resolver futuramente.
