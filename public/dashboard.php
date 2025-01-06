@@ -23,6 +23,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Dashboard</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -63,7 +64,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'
                     console.log(data); 
 
                     
-                    document.getElementById('welcome-message').innerText = `Espero que esteja bem, ${data.user}`;
+                    document.getElementById('welcome-message').innerText = `Bem vindo (: ${data.user}`;
                 } catch (error) {
                     console.error('Erro:', error);
                     alert('Erro ao buscar dados do dashboard: ' + error.message);

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="public/css/style.css">
     <script>
         async function login() {
             const username = document.getElementById('username').value;
@@ -38,15 +39,15 @@
     </script>
 </head>
 <body>
-    <h1>Login</h1>
-    <form id="loginForm" onsubmit="event.preventDefault(); login();">
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Entrar</button>
-    </form>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm" onsubmit="event.preventDefault(); login();">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
 </body>
 </html>
